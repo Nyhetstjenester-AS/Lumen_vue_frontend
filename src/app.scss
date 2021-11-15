@@ -1,0 +1,37 @@
+// Define variable defaults
+$body-bg: #fff;
+$body-color: #090909;
+
+// Then import Bootstrap an BootstrapVue SCSS files (order is important)
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap-vue/src/index.scss';
+
+label {
+  height: 2.5rem;
+}
+
+table {
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+  text-align-last: center;
+}
+
+th {
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+}
+
+td {
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+}
+
+.select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+/* For IE10 */
+.select::-ms-expand {
+  display: none;
+}
